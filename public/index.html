@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ht{
+            text-align: center;
+            font-weight: 300;
+            font-size: 40px;
+            font-style: italic;
+            font-family: cursive;
+        }
+    </style>
+    <script>
+        let x = document.getElementById("one");
+        let y = document.getElementById("two");
+        if(x != y){
+            window.alert("Password does not match!")
+        }
+    </script>
+</head>
+<body bgcolor="beige">
+    <img src="./images/logo.png" float="right">
+    <p id="ht">Home Tutor</p>     
+    <h2 align="center">PASSWORD RESET PAGE</h1>
+    <div align="center">
+        Old Password     : <input type="password"><br><br>
+        New Password     : <input type="password" id="one"><br><br>
+        Confirm Password : <input type="password" id="two"><br><br>
+        <button>SUBMIT</button>
+    </div>
+</body>
+</html>
